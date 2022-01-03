@@ -29,7 +29,7 @@ class CardPage extends StatelessWidget {
               subtitle: Text('aqui estamos con la descripcion'),
           ),
           Row( 
-              
+              mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
                 FlatButton(
                    child: Text('Cancelar'),
