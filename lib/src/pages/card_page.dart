@@ -56,8 +56,12 @@ class CardPage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Image (
-            image: NetworkImage(url),
-            )
+            image: NetworkImage('https://avivamientochaco.com/web/wp-content/uploads/2018/10/travel-landscape-01.jpg'),
+            ),
+            Container(
+              padding: EdgeInsets.all(10.0),
+            child :Text('No tengo idea de que poner')
+         
           ],
         ),
       ); 
