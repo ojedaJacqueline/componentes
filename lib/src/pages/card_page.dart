@@ -12,7 +12,10 @@ class CardPage extends StatelessWidget {
       body: ListView (
         padding:  EdgeInsets.all(20),
         children: <Widget> [
-          _cardTipo1()
+          _cardTipo1(),
+          SizedBox(height: 30.0),
+          _cardTipo2()
+
        ], 
       ),
     );
@@ -45,6 +48,22 @@ class CardPage extends StatelessWidget {
       ),
     );
           
-  }   
+  }
+
+   Widget _cardTipo2() {
+
+     return Card(
+      child: Column(
+        children: <Widget>[
+          Image (
+            image: NetworkImage(url),
+            )
+          ],
+        ),
+      ); 
+     
+
+   }   
   
+
 }
