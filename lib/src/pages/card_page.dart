@@ -69,5 +69,4 @@ class CardPage extends StatelessWidget {
 
    }   
   
-
 }
